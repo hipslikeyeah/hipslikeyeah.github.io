@@ -5,4 +5,4 @@ For Udacity Front-End Developer Nanodegree
 - [https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
 - [https://css-tricks.com/snippets/css/clear-fix/](https://css-tricks.com/snippets/css/clear-fix/)
 - [http://coolors.co/](http://coolors.co/)
-[https://unsplash.com/](https://unsplash.com/)
+- [https://unsplash.com/](https://unsplash.com/)
