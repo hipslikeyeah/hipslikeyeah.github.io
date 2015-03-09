@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	width: 100%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	color: #383d3b;
+	margin-bottom: 30px;
+}
+
+section{
+	width: 100%;
+	padding: 0 10px;
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* header */
+
+header{
+	width: 100%;
+	border-bottom: 2px solid #7c7c7c;
+	height: 153px;
+}
+
+h1{
+	font-weight: 100;
+	font-size: 55px;
+}
+
+h4{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header-text {
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 25px 13px 0 auto;
+}
+
+.logo {
+    float: left;
+    margin: 13px;
+    width: 124px;
+}
+
+/* hero */
+
+.hero{
+	margin: 0 auto 25px auto;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+/* project */
+
+.project{
+	float: left;
+	margin: 0 2% 15px 0;
+	width: 32%;
+	text-align: center;
+}
+
+.project:last-of-type{
+	margin: 0;
+}
+
+/* clearfix for floated children elements */
+.projects:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.project-image{
+	width: 100%;
+}
+
+h3{
+	font-size: 32px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.project-link{
+	text-decoration: none;
+	font-weight: 300;
+	color: #383d3b;
+}
+
+.project-link:hover{
+	color: #9b59b6;
+}
+
+/* portfolio section */
+
+h2{
+	color: #7c7c7c;
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+/* media queries */
+
+@media (max-width: 768px){
+	.project{
+		width: 49%;
+	}
+
+	.project:nth-child(2n+1){
+		margin-right: 0;
+	}
+
+	header{
+		height: 119px;
+	}
+
+	h1{
+		font-size: 35px;
+	}
+
+	h4{
+		font-size: 16px;
+	}
+
+	.logo{
+		width: 90px;
+	}
+}
+
+@media (max-width: 530px){
+	.project{
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+
+	header{
+		height: 79px;
+	}
+
+	.header-text{
+		margin: 13px;
+	}
+
+	h1{
+		font-size: 28px;
+	}
+
+	h4{
+		font-size: 14px;
+	}
+
+	.logo{
+		width: 50px;
+	}
+
+}
